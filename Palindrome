@@ -1,0 +1,18 @@
+public class R192211925{
+  public static void main(String args[]){
+    int x = 121;
+    int num = x;
+    int digit,remainder=0;
+    while(num!=0){
+      digit = num % 10;
+      remainder = remainder*10 + digit;
+      num = num / 10;
+    }
+    if(remainder==x){
+      System.out.println(remainder + " is a palindrome");
+    }
+    else{
+      System.out.println("false");
+    }
+  }
+}
