@@ -15,6 +15,6 @@
     }
     public static void main(String[] args) {
         String[] strs = {"flower", "flow", "flight"};
-        System.out.println("Longest common prefix: " + longestCommonPrefix(strs)); // Output: "fl"
+        System.out.println("Longest common prefix: " + longestCommonPrefix(strs)); 
     }
 }
